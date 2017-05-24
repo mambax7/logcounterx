@@ -1,6 +1,6 @@
 <?php
 include_once "./admin_header.php";
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 header("Pragma: no-cache");
 

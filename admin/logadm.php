@@ -1,6 +1,6 @@
 <?php
 include_once "admin_header.php";
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 
 //	Update Database
 if (isset($_POST['command'])) {
